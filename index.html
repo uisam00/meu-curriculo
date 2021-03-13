@@ -13,9 +13,17 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/myStyle.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+        <!--fab-->
+        <div class="fixed-bottom text-right p-2">
+            <a target="_blank" class="social-icon icon-fab" href="https://api.whatsapp.com/send?phone=5567998933115"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -44,7 +52,7 @@
                         <span class="text-primary">Santos</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Rua Floriano Peixoto, 1430, Guia Lopes da Laguna - MS · (67) 99893-3115 ·
+                        <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Rua Floriano Peixoto 1430 Guia Lopes da Laguna MS">Rua Floriano Peixoto, 1430, Guia Lopes da Laguna - MS</a> · (67) 99893-3115 ·
                         <a href="mailto:uisam.santos@gmail.com">uisam.santos@gmail.com</a>
                     </div>
                     <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
@@ -60,8 +68,8 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experiências</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <h2 data-aos="fade-right" class="mb-5">Experiências</h2>
+                    <div data-aos="fade-left" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Front-end Developer</h3>
                             <div class="subheading mb-3">To Myself</div>
@@ -69,21 +77,21 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Fevereiro 2020 - Presente</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div data-aos="fade-left" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Full Stack Developer</h3>
                             <div class="subheading mb-3">Guia Bonito</div>
-                            <p>Freelance para reconstruir a um site que antes era feito apenas em HTML. Criação do novo Layout na ferramenta Figma, criação do back-end, criação da interface baseada nos dados do site anterior.</p>
+                            <p>Freelance para reconstruir um site que antes era feito apenas em HTML. Criação do novo Layout na ferramenta Figma, criação do back-end, criação da interface baseada nos dados do site anterior.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Março 2021 - Presente</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div data-aos="fade-left" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Junior Flutter Mobile Developer</h3>
                             <div class="subheading mb-3">To Myself</div>
-                            <p>Criação de Aplicativos dinâmicos com acesso a APIs externas com uso do framework da google, o Flutter.</p>
+                            <p>Criação de Aplicativos dinâmicos com acesso a APIs externas com uso do framework da Google, o Flutter.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Maio 2020 - Presente</span></div>
                     </div>
                     
                 </div>
@@ -92,14 +100,14 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Educação</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <h2 data-aos="fade-right" class="mb-5">Educação</h2>
+                    <div data-aos="fade-left" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universidade Federal do Mato Grosso do Sul</h3>
                             <div class="subheading mb-3">Bacharel em Engenharia de Software</div>
                             <div>Engenharia de Software - Trilha de Desenvolvimento Web e Mobile</div>
                             <div>Semestre Atual: 5</div>
-                            <p>Matérias Concluidas: 18</p>
+                            <p>Matérias Concluídas: 18</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Fevereiro 2019 - Dezembro 2022</span></div>
                     </div>
@@ -110,30 +118,31 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Linguagens e Ferramentas de Programação</div>
-                    <ul class="list-inline dev-icons">
+                    <h2 data-aos="fade-right" class="mb-5">Skills</h2>
+                    <div data-aos="fade-left" class="subheading mb-3">Programação, Linguagens e Ferramentas</div>
+                    <ul data-aos="fade-left" class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
+                    <div data-aos="fade-left" class="subheading mb-3">Trabalho</div>
+                    <ul data-aos="fade-left" class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Design Responsivo
+                            Construção de Aplicações Web
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Teste e Depuração entre Navegadores
+                            Construção de Aplicações Responsivas
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Equipes multifuncionais
+                            Framework - Bootstrap
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -146,55 +155,31 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interesses</h2>
-                    <p>Além da programação, eu gosto de ficar ao ar livre curtindo a natureza. Nos tempos vagos, prezo pela prática de esportes para manter meu corpo saudável. E quando a situação financeira está favorável eu adoro curtir uma viagem.</p>
-                    <p class="mb-0">Quando estou em casa, assisto séries de TV e animes, além de curtir uma gamaplay de vez em quando, sou um aspirante a Master-Chef e passo boa parte da minha jornada livre na web explorando os recentes eventos no mundo tecnológico.</p>
+                    <h2 data-aos="fade-right" class="mb-5">Interesses</h2>
+                    <p data-aos="fade-left">Meu principal interesse atualmente é conseguir uma vaga de estágio em uma boa empresa na área de desenvolvimento de Software para botar em prática todo o conhecimento que venho adquirindo ao longo de toda minha trajetória. Quero extrair todo aprendizado possível com meus colegas de equipe e poder também ser um marco na vida de outras pessoas.</p>
+                    <p data-aos="fade-left">Além da programação, eu gosto de ficar ao ar livre curtindo a natureza. Nos tempos vagos, prezo pela prática de esportes para manter meu corpo saudável. E quando a situação financeira está favorável eu adoro curtir uma viagem.</p>
+                    <p data-aos="fade-left" class="mb-0">Quando estou em casa, assisto séries de TV e animes, além de curtir uma gamaplay de vez em quando, sou um aspirante a Master-Chef e passo boa parte da minha jornada livre na web explorando os recentes eventos no mundo tecnológico.</p>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
+                    <h2 data-aos="fade-right" class="mb-5">Awards & Certifications</h2>
+                    <ul data-aos="fade-left" class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
+                            NLW#4 - RocktSeat
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
+                            Domine Web, 14 Cursos + Projetos, Javascript, Angular, React, Vue, Node, HTML, CSS, jQuery, Bootstrap Webpack Gulp MySQL - Cod3r Cursos
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                            Criação de Apps Android e iOS com Flutter / Crie 16 Apps - Flutter - Brasil | Oficial
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
+                        
                     </ul>
                 </div>
             </section>
@@ -206,5 +191,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({disable: 'mobile'});
+        </script>
     </body>
 </html>
