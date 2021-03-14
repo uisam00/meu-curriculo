@@ -1,1 +1,1 @@
-<a href="https://vercel.com/dashboard">Link do deploy</a>
+<a href="https://curriculo-web-bootstrap.vercel.app/">Link do deploy</a>
